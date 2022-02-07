@@ -8,12 +8,8 @@ body {
   background-color: rgb(70, 66, 66);
 }
 
-.parallax {
-  background-image: url("NCY.jpg");
+.image-header {
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .page-title-header{
@@ -39,11 +35,11 @@ body {
 }
 
 .tourism_title{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Andada Pro', serif;
   font-size: 40px;
   font-weight: 400;
   padding: 40px 80px;
-  height: 150px;
+  height: 80px;
   color: white;
   text-align: center;
   display: flex;
@@ -54,13 +50,15 @@ body {
 .tourism {
   display: flex;
   justify-content: space-around;
+  grid-auto-flow: column;
+  grid-column-gap: 50px;
+  padding: 30px 100px;
 }
 
 .tourism_statue_of_liberty{
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: center;
-  padding: 100px 0px;
   color: white;
 }
 
@@ -78,7 +76,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: center;
-  padding: 100px 0px;
   color: white;
 }
 
@@ -96,7 +93,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: center;
-  padding: 100px 0px;
   color: white;
 }
 
@@ -110,11 +106,15 @@ body {
   width: 700px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 .footer {
   background-color: white;
   font-family:'Work Sans', sans-serif;
-  font-size: 30px;
-  height: 150px;
+  font-size: 18px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
