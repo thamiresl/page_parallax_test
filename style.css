@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Work+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  background-color: rgb(70, 66, 66);
+}
+
+.parallax {
+  background-image: url("NCY.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-title-header{
+  font-family: 'Andada Pro', serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.describe-city {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 40px 80px;
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.tourism_title{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px 80px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.tourism {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tourism_statue_of_liberty{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+}
+
+#image_statue_of_liberty{
+  height: 400px;
+  width: 300px;
+}
+
+#image_statue_of_liberty:hover {
+  height: 800px;
+  width: 700px;
+}
+
+.tourism_times_square{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+}
+
+#image_times_square{
+  height: 400px;
+  width: 300px;
+}
+
+#image_times_square:hover {
+  height: 800px;
+  width: 700px;
+}
+
+.tourism_central_park{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+}
+
+#image_central_park{
+  height: 400px;
+  width: 300px;
+}
+
+#image_central_park:hover {
+  height: 800px;
+  width: 700px;
+}
+
+.footer {
+  background-color: white;
+  font-family:'Work Sans', sans-serif;
+  font-size: 30px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
