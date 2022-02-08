@@ -9,7 +9,12 @@ body {
 }
 
 .image-header {
-  background-attachment: fixed;
+  min-height: 350px;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 .page-title-header{
@@ -40,7 +45,7 @@ body {
   font-weight: 400;
   padding: 40px 80px;
   height: 80px;
-  color: white;
+  color:white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -60,6 +65,9 @@ body {
   font-size: 16px;
   text-align: center;
   color: white;
+  background-color: gray;
+  border-radius: 20px;
+  height: 750px;
 }
 
 #image_statue_of_liberty{
@@ -67,16 +75,14 @@ body {
   width: 300px;
 }
 
-#image_statue_of_liberty:hover {
-  height: 800px;
-  width: 700px;
-}
-
 .tourism_times_square{
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   color: white;
+  background-color: gray;
+  border-radius: 20px;
+  height: 750px;
 }
 
 #image_times_square{
@@ -84,26 +90,19 @@ body {
   width: 300px;
 }
 
-#image_times_square:hover {
-  height: 800px;
-  width: 700px;
-}
-
 .tourism_central_park{
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   color: white;
+  background-color: gray;
+  border-radius: 20px;
+  height: 750px;
 }
 
 #image_central_park{
   height: 400px;
   width: 300px;
-}
-
-#image_central_park:hover {
-  height: 800px;
-  width: 700px;
 }
 
 h3 {
